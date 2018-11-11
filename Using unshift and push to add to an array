@@ -1,0 +1,23 @@
+function arrayNum(arr) {
+	arr.unshift(1, 2, 3, 4, 5);
+    arr.push(11, 12, 13, 14, 15);
+  return arr;
+}
+
+console.log(arrayNum([6, 7, 8, 9, 10]));
+
+function arrayStr(arr) {
+	arr.unshift('One', 'Two', 'Three', 'Four', 'Five');
+    arr.push('Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen');
+  return arr;
+}
+
+console.log(arrayStr(['Six', 'Seven', 'Eight', 'Nine', 'Ten']));
+
+function arrayMix(arr) {
+	arr.unshift(1, 'Two', 3, 'Four', 5);
+    arr.push(11, 'Twelve', 13, 'Fourteen', 15);
+  return arr;
+}
+
+console.log(arrayMix(['Six', 7, 'Eight', 9, 'Ten']));

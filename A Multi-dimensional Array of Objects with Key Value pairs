@@ -1,0 +1,24 @@
+    let multiDimArray = [
+      [
+        {
+          one: 1,
+          a: "a"
+        },
+        {
+          two: 2,
+          b: "b"
+        }
+      ],
+      [
+        {
+          three: 3,
+          c: "c"
+        },
+        {
+          four: 4,
+          d: "d"
+        }
+      ]
+    ];
+	
+console.log(multiDimArray);

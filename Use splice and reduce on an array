@@ -1,0 +1,6 @@
+function spliceReduce(arr) {
+  arr.splice(2, 2);
+  return arr.reduce((a, b) => a + b);
+}
+
+console.log(spliceReduce([1, 2, 3, 4, 5]));

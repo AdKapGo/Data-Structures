@@ -1,0 +1,10 @@
+function spreadFun(arr, num) {
+  let arrayNew = [];
+  while (num >= 0) {
+    arrayNew.push([...arr]); // push adds items to end of arr
+    num--;
+  }
+  return arrayNew;
+}
+
+console.log(spreadFun(['blue', 'green', 'white', 'tan'], 2));

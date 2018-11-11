@@ -1,0 +1,5 @@
+function pie(arr) {
+  return arr.slice(2, 4); // Outputs ['slice3', 'slice4']
+}
+
+console.log(pie(['slice1', 'slice2', 'slice3', 'slice4', 'slice5', 'slice6']));

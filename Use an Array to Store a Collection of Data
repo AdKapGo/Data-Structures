@@ -1,0 +1,3 @@
+// Data Structures: Store different types of elements in an array.
+
+let myArray = [true, false, 2, 3, "string"];

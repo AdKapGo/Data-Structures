@@ -1,0 +1,15 @@
+let array1 = ["index0", "index1", "index2", "index3", "index4"];
+
+console.log(array1);
+console.log(array1[0]);
+console.log(array1[4]);
+
+array1[0] = "Element 1";
+array1[1] = "Element 2";
+array1[2] = "Element 3";
+array1[3] = "Element 4";
+array1[4] = "Element 5";
+
+console.log(array1);
+console.log(array1[0]);
+console.log(array1[4]);

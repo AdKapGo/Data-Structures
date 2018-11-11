@@ -1,0 +1,8 @@
+let array1 = [5, 'four', 3, 'two', 1];
+
+console.log(array1); // Outputs full array 
+
+let array2 = array1.splice(2, 3); // Beginning at index 2, remove 3 items 
+
+console.log(array1); // Outputs elements not removed 
+console.log(array2); // Outputs elements added to new array 

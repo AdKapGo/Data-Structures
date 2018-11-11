@@ -1,0 +1,7 @@
+function array1(arr) {
+  let elemFirst = arr.shift(); // writes first element to new variable
+  let elemLast = arr.pop();    // writes last element to new variable 
+  return [elemFirst, elemLast];  // returns the new variables 
+}
+
+console.log(array1(['The code is', 'broken', 'and is', 'not', 'working.']));
